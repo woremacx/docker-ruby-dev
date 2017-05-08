@@ -11,6 +11,7 @@ RUN apk update && \
     libxml2-dev \
     libxslt-dev \
     linux-headers \
+    mysql-client \
     mysql-dev \
     sqlite-dev \
     nodejs \
