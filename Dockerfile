@@ -21,7 +21,9 @@ RUN apk update && \
     yaml-dev \
     zlib-dev \
     imagemagick \
-    jq
+    jq \
+    tar \
+    gzip
 
 RUN gem install bundler && \
     bundle config build.nokogiri --use-system-libraries && \
